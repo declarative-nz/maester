@@ -1,0 +1,37 @@
+{
+  "schema": "declarative-catalog/1",
+  "repository": "declarative-nz/maester",
+  "owner": "declarative-nz/admins",
+  "classification": "internal",
+  "summary": "Fork of a PowerShell framework for Microsoft 365 configuration assessment and test reporting.",
+  "updated": "2026-10-24",
+  "entries": [
+    {
+      "id": "assessment-module",
+      "kind": "tool",
+      "title": "Assessment module source",
+      "summary": "Framework source for running configuration checks and preparing results.",
+      "path": "powershell",
+      "status": "experimental",
+      "tags": ["powershell", "microsoft-365"]
+    },
+    {
+      "id": "custom-test-guide",
+      "kind": "guide",
+      "title": "Custom test conventions",
+      "summary": "Explains test organisation and how to run and update framework tests.",
+      "path": "tests/README.md",
+      "status": "experimental",
+      "tags": ["pester", "testing"]
+    },
+    {
+      "id": "multi-tenant-pipeline",
+      "kind": "template",
+      "title": "Multi-tenant pipeline example",
+      "summary": "Example pipeline structure for assessments across tenant contexts.",
+      "path": "powershell/examples/multi-tenant-pipeline.yml",
+      "status": "experimental",
+      "tags": ["pipeline", "testing"]
+    }
+  ]
+}
